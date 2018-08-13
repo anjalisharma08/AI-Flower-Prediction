@@ -1,0 +1,37 @@
+AI Flower Predictor
+
+Intro and problem statement + utility--- Artificial Intelligence Flower PRedictor is basically used to predict the type of flower, from the given data set based on the mean of its sepal height, sepal width, petal height and petal width. Applied K clustering on Iris data set. The aim is to classify iris flowers among three species (setosa, versicolor or virginica) from measurements of length and width of sepals and petals.
+The iris data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. The central goal here is to design a model which makes good classifications for new data, in other words one which exhibits good generalization. In many cases, we can train the system using k clustering algorithm to give appropriate predictions for specific data sets, here, iris data set.
+
+Algorithms used- K mean clustering algorithm
+
+Pseudo code of algo- 
+1. Initialize k means with random values
+For a given number of iterations:
+    Iterate through items:
+        Find the mean closest to the item
+        Assign item to mean
+        Update mean
+
+Input: Set of Sepal height, Sepal width, Petal height, Petal width for given set of data= E={e1,e2,....,en}=> set of entities to be clustered
+k=3=number of clusters=> Here, number of flowers is 3
+Max Iterations= 10 here => limit of  iterations (Our clustering is being performed in less than 10 iterations too)
+
+Output: Set of cluster centroids= C= {c1,c2,....,cn}
+
+
+ORRRRRRR
+
+
+ 2. Input: The number of k and a database containing n objects.
+Output: A set of k-clusters that minimize the squared-error criterion.
+Method:
+-arbitrarily choose k objects as the initial cluster centres;
+-repeat;
+-(re)assign each object to the cluster to which the object is the most similar based on the mean value of the objects in the cluster;
+-update the cluster mean, i.e. calculate the mean value of the object for each cluster;
+-until no change.
+
+              
+
+
